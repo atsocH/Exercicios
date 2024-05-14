@@ -1,0 +1,39 @@
+.class-1 {
+    color: blue;
+}
+
+body {
+    background-image: url(images/lasagna.png);
+    background-repeat: repeat-y;
+    background-size: 70px;
+}
+
+.class-2 {
+    border: 4px solid;
+    text-align: center;
+}
+
+.class-3 {
+    border-style: dotted;
+    border-top-width: 2px;
+    border-right-width: 20px;
+    border-bottom-width: 6px;
+    border-left-width: 15px;
+}
+
+.class-4 {
+    border:solid;
+    margin-left: 50px;
+}
+
+.class-5 {
+    text-align: center;
+    border: 8px red groove;
+    border-radius: 20px;
+}
+
+.class-6 {
+    border:5px black dotted;
+    margin-left: inherit;
+    margin-top: 8px;
+}
