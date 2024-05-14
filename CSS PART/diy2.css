@@ -1,0 +1,13 @@
+#title {
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 5px orange;
+    letter-spacing: 3px;
+}
+#paragrafo {
+    color: black;
+    word-spacing: -3px;
+    text-indent: 75px;
+}
