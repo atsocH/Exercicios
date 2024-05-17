@@ -1,5 +1,6 @@
 .class-1 {
     color: blue;
+    text-align: center;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 .class-2 {
     border: 4px solid;
     text-align: center;
+    margin-left: 60px;
 }
 
 .class-3 {
@@ -19,21 +21,24 @@ body {
     border-right-width: 20px;
     border-bottom-width: 6px;
     border-left-width: 15px;
+    margin-left: 60px;
 }
 
 .class-4 {
     border:solid;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .class-5 {
     text-align: center;
     border: 8px red groove;
     border-radius: 20px;
+    margin-left: 60px;
 }
 
 .class-6 {
     border:5px black dotted;
     margin-left: inherit;
     margin-top: 8px;
+    margin-left: 60px;
 }
