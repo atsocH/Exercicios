@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    margin-top: 35%;
+    justify-content: center;
+    align-items: center;
+
+}
+.um {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+.dois {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.tres {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
