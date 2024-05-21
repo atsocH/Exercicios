@@ -1,0 +1,11 @@
+.container {
+    background-color: green;
+    border: 2px blue solid;
+    padding-top: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 35%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

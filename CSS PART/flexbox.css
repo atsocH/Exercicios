@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+/*  flex-flow: row wrap;
+    justify-content: center;
+    align-content:center ;
+    height: 900px;
+    flex-direction: column; */
+    height: 800px;
+}
+
+.container div {
+        
+        flex-shrink: 1;
+        flex-basis: 120px;
+        
+}
+.container div:nth-of-type(1) {
+    flex-shrink: 0;
+}
+
+.container div:nth-of-type(4){
+    flex-shrink: 1;
+}
+
+#a, #b, #c, #d, #e, #f {
+        height: 100px;    
+}
+
+#a {
+    background-color: bisque;
+}
+#b {
+    background-color: red;
+}
+#c {
+    background-color: purple;
+}
+#d {
+    background-color: brown;
+}
+#e {
+    background-color: yellow;
+}
+#f {
+    background-color: green;
+}

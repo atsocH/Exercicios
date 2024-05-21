@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+header, footer {
+    background-color: rgb(218, 216, 216);
+}
+
+aside {
+    border-right: 2px solid darkgrey;
+}
+
