@@ -1,0 +1,31 @@
+#box {
+   /* width: 100px;
+    height: 100px;
+    background-image: linear-gradient(90deg, orange, yellow);
+    box-shadow: 5px 5px 10px 2px red; */
+}
+
+#scale {
+   /* width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin: auto;
+    transform: perspective(500px) scale */
+}
+
+#scale3d {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease;
+}
+
+#scale3d:hover {
+    width: 300px;
+    height: 300px;
+}

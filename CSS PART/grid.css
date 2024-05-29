@@ -1,12 +1,41 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 20px;
-}
-header, footer {
-    background-color: rgb(218, 216, 216);
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+    gap: 20px;
+    height: 1000px;
+}
+.menu h4{
+    text-align: center;
+    padding-top: 10px ;
+}
+.menu a:link {
+    color: black;
+}
+.menu a:visited {
+    color: whitesmoke;
+}
+.menu a:hover {
+    color:green;
+}
+.menu a:active {
+    color: blue;
+}
+li {
+    padding: 5px;
+}
+header {
+    background-color: rgb(218, 216, 216);
+}
+footer {
+    text-align: center;
+}
 aside {
     border-right: 2px solid darkgrey;
 }
